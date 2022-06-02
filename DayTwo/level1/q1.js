@@ -1,5 +1,6 @@
 let challenge = "30 Days of Javascript";
 let companies = 'Facebook, Google, Amazon, Microsoft, Apple, IBM, Oracle, Amazon'
+let challenge1 = 'You cannot end a sentence with because because because is a conjunction'
 console.log(challenge);
 console.log(challenge.length)
 console.log(challenge.toUpperCase())
@@ -14,3 +15,11 @@ console.log(challenge.charAt(15))
 console.log(challenge.charCodeAt('J'))
 console.log(challenge.indexOf('a'))
 console.log(challenge.lastIndexOf('a'))
+console.log(challenge1.indexOf('because'))
+console.log(challenge1.lastIndexOf('because'))
+console.log(challenge1.search('because'))
+console.log(challenge.trim(' '))
+console.log(challenge.startsWith(3))
+console.log(challenge.endsWith('t'))
+console.log(challenge.match('a'))
+console.log(challenge.repeat(2))
