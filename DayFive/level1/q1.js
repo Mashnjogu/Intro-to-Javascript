@@ -32,19 +32,19 @@ if (companyExistsIndex == -1) {
     console.log("The company exists in our database")
 }
 
-// var itCompanies = function (str) {
-//     for (var i = 0; i <= str.length; i++) {
-//         for (var j = i + 1; j <= str.length; j++) {
-//             if (str[j] == str[i]) {
-//                 return false;
-//             }
-//         }
-//     }
-//     return true;
-// }
+console.log(itCompanies.reverse())
 
-let companiesWithDoubleo = itCompanies.includes("oo")
-console.log(`The companies with double o are: ${companiesWithDoubleo}`)
-
-
+//slice out the first 3 companies
+console.log(`The first 3 are: ${itCompanies.slice(0,3)}`)
+//slice out the last 3 companies
+console.log(`The last 3 are: ${itCompanies.slice(itCompanies.length - 3, itCompanies.length)}`)
+//slice out the middle company
+console.log(`The middle company is: ${itCompanies.slice((itCompanies.length/2),(itCompanies.length/2) + 1)}`)
+// Remove the first IT company from the array
+console.log(`The first element is: ${itCompanies.shift()}`)
+// Remove the middle IT company or companies from the array
+console.log(`The middle element is: ${itCompanies.slice((itCompanies.length/2),(itCompanies.length/2) + 1)}`)
+// Remove the last IT company from the array
+console.log(`The last element is: ${itCompanies.pop()}`)
+// Remove all IT companies
 
