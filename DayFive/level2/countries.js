@@ -10,3 +10,14 @@ if(index == -1){
 }
 
 // export{countries}
+
+//find the middle countries in the array
+let middleCountry = Math.floor(countries.length/2)
+console.log(`The middle country is: ${countries[middleCountry]}`)
+
+if(countries.length % 2 !== 0){
+    
+}else{
+    const middleIndex = Math.ceil(countries.length/2)
+    console.log(`The middle index is: ${middleIndex}`)
+}
